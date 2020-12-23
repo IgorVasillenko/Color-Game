@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Web development assignment</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+        <!-- starts the game in easy mode by default -->
+  <body onload="easyMode()">
+      <header>
+        <div id="divHeader">
+          <h1 id='myHeader'>
+            The great RGB color game!
+          </h1>
+          <h2 id ='newgame'></h2>
+        </div>
+        <!-- navigation bar for the buttons  -->
+        <div id ='navBar'>
+            <ul >
+                <button id='new_game', onclick='pressNewGame()'> New Game</button>
+                <span id="massage"></span>
+                <button onclick='easyMode()'>Easy</button>
+                <button onclick = 'hardMode()'>Hard</button>
+            </ul>
+        </div>
+      </header>
+        <main id="container">
+          <!-- when a square is clicked, calls a fuction to check one's color -->
+            <div class="square", onclick="color_check(0)"></div>
+            <div class="square", onclick="color_check(1)"></div>
+            <div class="square", onclick="color_check(2)"></div>
+            <div class="square", onclick="color_check(3)"></div>
+            <div class="square", onclick="color_check(4)"></div>
+            <div class="square", onclick="color_check(5)"></div>
+        </main>
+        <footer>
+          <!-- a span element holding the time left for the game -->
+          <span id="counter"></span>
+        </footer>
+    <script type="text/javascript" src="script.js"></script>  
+  </body>
+    

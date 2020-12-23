@@ -1,0 +1,79 @@
+ul {
+    display:inline;
+}
+
+ul button {
+    background-color:white;
+    font-size: larger;
+    font-weight: bolder;
+    color:teal;
+    border:none;
+}
+
+#navBar {
+    background-color: rgb(255, 255, 255);
+    padding:20px;
+}
+
+#new_span{
+    margin-right:150px;
+}
+
+#massage {
+    display:inline-block;
+    width: 20%;
+}
+
+html {
+    background-color: rgb(70, 70, 70);
+    height:auto;
+    color:teal;
+}
+
+header {
+    background-color: teal;
+    text-align: center;
+}
+
+body {
+    height: auto;
+}
+
+h1, h2 {
+    margin: auto;
+    padding: 20px;
+    font-size:60px;
+    font-style:oblique;
+    color:white;
+}
+
+main {
+    max-width: 700px;
+    margin:20px auto;
+    height: auto;
+    display: block;
+    overflow: auto;
+}
+
+footer {
+    width:100%;
+    bottom:0;
+    text-align: center;
+}
+
+.square {
+    width: 30%;
+    padding-bottom:20%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 25%;
+}
+
+#counter {
+    color: white;
+}
+
+
+
+
+
